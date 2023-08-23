@@ -1,12 +1,14 @@
-public class DivisibleNumbers {
-    public static void main(String[] args){
-        int i=200;
-        int j=7;
+import java.util.Scanner;
+public class DivisibleNumbers{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter i : ");
+        int i= sc.nextInt();
+        System.out.print("Enter j : ");
+        int j= sc.nextInt();
 
-        System.out.println("Number between 1 and " + i + "Divisible by "+ j +";");
-
-        for(int k=1 ; k<=i ; k++) {
-            if( k%j==0 ){
+        for(int k=1; k<=i; k++) {
+            if( k%j==0) {
                 System.out.println(k);
             }
         }
