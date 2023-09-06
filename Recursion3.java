@@ -11,10 +11,11 @@ public class Recursion3 {
     }
 
     public static void main(String[]args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter N: ");
-        int n = sc.nextInt();
-        towerOfHanoi(n, "S", "H", "D");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter N: ");
+            int n = sc.nextInt();
+            towerOfHanoi(n, "S", "H", "D");
+        }
         
     }
 }

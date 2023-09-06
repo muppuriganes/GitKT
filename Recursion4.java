@@ -12,9 +12,10 @@ public class Recursion4 {
     }
 
     public static void main(String[]args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter N: ");
-        String str = sc.next();
-        printRev(str, str.length()-1);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter N: ");
+            String str = sc.next();
+            printRev(str, str.length()-1);
+        }
     }
 }
