@@ -25,7 +25,7 @@ public class Recursion7 {
     {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the String : ");
-            String str = sc.next();
+            String str = sc.nextLine();
             moveAllX(str,0,0,"");
         }
     }
