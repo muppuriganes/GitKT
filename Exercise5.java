@@ -5,14 +5,14 @@ public class Exercise5 {
         // Display unique and even numbers
         System.out.print("Unique even numbers : ");
 
-        for(int i=0; i<=elements.length; i++) {
+        for(int i=0; i<elements.length; i++) {
             int num = elements[i];
             boolean isEven = num%2 == 0;
             boolean isUnique = true;
 
-            for(int j=0; j<i; j++) {
-                if(elements[j] == num) {
-                    isUnique = false;
+            for(int j=0;j<i; j++) {
+                if(elements[j]==num) {
+                    isUnique =false;
                     break;
                 }
             }
