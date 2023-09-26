@@ -13,8 +13,8 @@ public class Exercise7 {
             int fact = 1;
             int i = 1;
             do{
-                fact = fact*i;
-                i++;
+                fact *= i++;
+                //i++;
             }while (i<=n);
             System.out.print(fact);
         }

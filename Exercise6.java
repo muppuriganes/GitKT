@@ -15,8 +15,8 @@ public class Exercise6 {
             int i = 1;
 
             while(i<=n) {
-                fact = fact*i;
-                i++;
+                fact *= i++;
+                //i++;
             }
             System.out.print(fact);
         }

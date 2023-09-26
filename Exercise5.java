@@ -10,9 +10,9 @@ public class Exercise5 {
             boolean isEven = num%2 == 0;
             boolean isUnique = true;
 
-            for(int j=0; j<i; j++) {
-                if(elements[j] == num) {
-                    isUnique = false;
+            for(int j=0;j<i; j++) {
+                if(elements[j]==num) {
+                    isUnique =false;
                     break;
                 }
             }
