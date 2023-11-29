@@ -23,4 +23,8 @@ public class Arrays {
             }
         }
     }
+
+    public static Object asList(int i, int j, int k, int l, int m) {
+        return null;
+    }
 }

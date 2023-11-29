@@ -6,7 +6,8 @@ public class GreaterNum {
         int a = sc.nextInt();
         System.out.print("Enter B: ");
         int b = sc.nextInt();
-        System.out.println(Math.min(a, b));
+        System.out.println("Smaller number is : "+Math.min(a, b));
+        System.out.println("Largest number is : "+Math.max(a, b));
     }  
   }
 }
