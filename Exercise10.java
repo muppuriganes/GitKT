@@ -1,15 +1,22 @@
-import java.util.*;
-public class Exercise10 {
+public class Exercise10{
     public static void main(String[]args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int fact = 1;
+         
+            int First = 0;
+            int Second = 1;
+            System.out.print(First+" "+Second+" ");
+            int result;
+            do {
+                result = First + Second;
+                if(result < 50) {
+                System.out.print(+result+" ");
+                }
+                First =Second;
+                Second =result;
+            }
+            while(result <50);
+            
+                
+            }
+        
 
-        for(int i=1; i<=n; i++) {
-            fact *= i;
-            //i++ ;
-            //System.out.println(fact);
-        }
-        System.out.println(fact);
     }
-}
